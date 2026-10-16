@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bookmark New Tab settings</title>
+  <style>
+    body { font: 14px/1.4 system-ui, sans-serif; padding: 16px; min-width: 320px; }
+    label { display: block; margin-bottom: 6px; }
+    input { font: inherit; padding: 4px 6px; width: 220px; }
+    p { color: #6b7280; margin: 10px 0 0; }
+  </style>
+</head>
+<body>
+  <form id="form">
+    <label for="folder">Bookmarks folder to show</label>
+    <input id="folder" type="text" placeholder="NewTab">
+    <button type="submit">Save</button>
+  </form>
+  <p>Subfolders become groups. The setting syncs across your PCs.</p>
+  <p id="status" role="status"></p>
+  <script src="options.js"></script>
+</body>
+</html>

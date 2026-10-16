@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>New Tab</title>
+  <link rel="stylesheet" href="newtab.css">
+</head>
+<body>
+  <header class="top">
+    <div id="time" class="time"></div>
+    <div id="date" class="date"></div>
+    <input id="filter" class="filter" type="text" placeholder="Filter bookmarks" aria-label="Filter bookmarks" autocomplete="off" spellcheck="false" hidden>
+  </header>
+  <main id="groups" class="groups"></main>
+  <section id="empty" class="empty" hidden>
+    <p id="empty-text"></p>
+    <button id="create" type="button"></button>
+  </section>
+  <footer class="toolbar">
+    <button id="edit" type="button" title="Edit shortcuts in Bookmark Manager">Edit</button>
+    <button id="settings" type="button" title="Settings">Settings</button>
+  </footer>
+  <script src="newtab.js"></script>
+</body>
+</html>
